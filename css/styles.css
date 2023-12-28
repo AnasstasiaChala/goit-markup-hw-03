@@ -3,20 +3,46 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+p, h1,h2,h3,h4,h5,h6 {
+ margin-top: 0;
+ margin-bottom: 0;
+}
 a {
     text-decoration: none;
 }
 ul {
     list-style: none;
 }
+ button {
+    cursor: pointer;
+ }
 
-/* .visually-hidden { 
+
+ address {
+font-style: normal;
+ }
+
+ .container {
+     width: 1158px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin: 0 auto;
+ }
+
+ 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
     margin: -1px;
+    border: 0;
+    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}*/
+}
 
 /** ------------Header-------- */
 
@@ -72,7 +98,9 @@ color: #404bbf;
 .hero {
     background: #2E2F42;
 }
-
+.hero-container {
+    padding: 188px 472px 292px 472px;
+}
 .hero-title {
 color: var(--WHITE, #FFF);
     text-align: center;
@@ -80,6 +108,8 @@ color: var(--WHITE, #FFF);
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    max-width: 496px;
 }
 .hero-order-btn {
     background-color: #4D5AE5;
@@ -100,6 +130,8 @@ font-family: "Roboto", sans-serif;
 
 .features {
     background: #FFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features-list {}
@@ -112,6 +144,7 @@ font-family: "Roboto", sans-serif;
         font-weight: 500;
         line-height: 1.20;
         letter-spacing: 0.02em;
+        margin-bottom: 32px;
 }
 
 .features-item-text {
@@ -137,6 +170,10 @@ font-family: "Roboto", sans-serif;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        padding-top: 120px;
+        margin-bottom: 72px;
+        width: 162px;
+        margin: 0 auto;
 }
 
 .team-list {

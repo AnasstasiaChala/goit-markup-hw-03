@@ -202,8 +202,6 @@ font-family: "Roboto", sans-serif;
         font-weight: 400;
         line-height: 1.50;
         letter-spacing: 0.02em;
-        max-width: 264px;
-        margin: 0 auto 120px;
 }
 
 
@@ -226,7 +224,6 @@ font-family: "Roboto", sans-serif;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        width: 162px;
         margin: 0 auto 72px;
         
 }
@@ -234,7 +231,6 @@ font-family: "Roboto", sans-serif;
 .team-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .team-item {
@@ -246,7 +242,6 @@ font-family: "Roboto", sans-serif;
 }
 
 .team-img {
-    margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -265,7 +260,6 @@ font-family: "Roboto", sans-serif;
         font-size: 16px;
         line-height: 1.50;
         letter-spacing: 0.02em;
-        margin-bottom: 32px;
 }
 
 /** ------------------------ */
@@ -301,14 +295,11 @@ font-family: "Roboto", sans-serif;
 }
 
 .portfolio-item {
-    border: 1px solid #E7E9FC;
-        background: #FFF;
         width: calc((100% - 24px * 2) / 3);
 
 }
 
 .portfolio-img {
-margin-bottom: 32px;
 }
 
 .portfolio-subtitle {
@@ -318,7 +309,6 @@ margin-bottom: 32px;
         line-height: 1.20;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
-        padding-left: 16px;
 }
 
 .portfolio-item-text {
@@ -326,8 +316,6 @@ margin-bottom: 32px;
         font-size: 16px;
         line-height: 1.50;
         letter-spacing: 0.02em;
-        margin-bottom: 32px;
-        padding-left: 16px;
 }
 
 /** ------------------------ */
@@ -359,7 +347,6 @@ margin-bottom: 32px;
         font-size: 16px;
         line-height: 1.50;
         letter-spacing: 0.02em;
-        margin-top: 17.5px;
         max-width: 264px;
 
 }
